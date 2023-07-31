@@ -10,6 +10,7 @@
 
 A ideia desse script simples é fazer uma verificaçao nos diretórios existentes, e em seguida fazer a verificaçao dos metodos permitidos.
 ## 🚀 Por que usa-lo?
+![image](https://github.com/faciltech/metodo/assets/3409713/d953ae07-45eb-4783-a503-7f34e9b27c37)
 
 Muitas vezes precisamos verificar quais metodos um diretório aceita, se POST, GET, PUT etc, e podemos fazer isso de forma automatizada, por isso ao estudar para certificaçoes como DCPT e OSCP, desenvolvi este script, ele faz uso da maravilhosa ferramenta dirsearch, entretanto fiz alguns ajustes, para assim que o dirsearch trouxer os diretórios, nosso script cria uma lista e testa os metodos aceitos. 
   
