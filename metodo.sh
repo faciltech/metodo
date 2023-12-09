@@ -3,12 +3,10 @@ figlet METODORECON
 echo "Autor: Eduardo Amaral - eduardo4maral@protonmail.com"
 echo "You Tube : https://www.youtube.com/faciltech"
 echo "github   : https://github.com/Amaroca"
-echo "Facebook : https://www.facebook.com/faciltech123"
 if [ -z "$2" ]
 then
 	echo -e "\e[1;33;40m ++++ MODO DE USO ++++\e[0m"
 	echo "./metodo.sh <dominio/ip> <wordlist>"
-        echo "OBS: Necessita do Dirsearch"
         exit 1
 fi
 echo -e "\e[1;33;40m Verificando os diretorios com o Dirsearch...\e[0m"
