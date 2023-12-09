@@ -1,4 +1,4 @@
 #/bin/bash
 sudo apt install dirsearch -y
-chmod +x metodos.sh
-cp metodos.sh /usr/bin
+chmod +x metodo.sh
+cp metodo.sh /usr/bin
