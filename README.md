@@ -31,12 +31,18 @@ Muitas vezes precisamos verificar quais metodos um diretório aceita, se POST, G
 
 2.  **Conceda permissão para o arquivo!**
 ```
-chmod +x metodo.sh
+chmod +x install.sh
 ```
-OBS: Uma outra boa dica é mover o arquivo do script para o diretório /usr/bin , dessa forma podemos utilizar de forma direta no terminal.
+Em seguida inicie com o comando:
+```
+./install.sh
+```
+Ele vai instalar o dirsearch e em seguida vai colocar o arquivo metodo.sh no diretório de binários.
+
 ## 🧐 Como usar o script?
 
-Você irá digitar ```./metodo.sh``` 
+Você irá digitar 
+```metodo.sh <site> <wordlist> ``` 
   
 <img alt="faciltech" src="20230118_194341.gif"/>
 ## 🎓 Linguagem
